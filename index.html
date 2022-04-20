@@ -30,7 +30,7 @@
         <div class="container">
           <div class="header">
             <h1><img src="images/log-in.svg" />Faça seu login</h1>
-            <p>Entre com suas informações de cadastros.</p>
+            <p>Entre com suas informações de cadastro.</p>
           </div>
           <!--- input email -->
 
@@ -49,17 +49,21 @@
           <!--- input password -->
           <div class="form-group password">
             <label for="password">Senha</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Digite sua senha"
-              required
-              inputmode="numeric"
-              autocomplete="false"
-            />
+            <div class="container-input-password">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Digite sua senha "
+                required
+                inputmode="numeric"
+                autocomplete="false"
+                class="fa-regular fa-eye"
+              />
+
+              <i id="eye" class="fa-regular fa-eye eye-icon"></i>
+            </div>
           </div>
-          <i id="eye" class="fa-regular fa-eye eye-icon"></i>
 
           <!--- input checkbox -->
           <div class="form-group checkbox">
